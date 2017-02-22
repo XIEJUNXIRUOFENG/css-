@@ -4,59 +4,59 @@
 }
 
 .box {
-	width: 400px;
+    width: 400px;
 }
 
 li {
-	list-style: none;
-	position: relative;
-	width: 100px;
+    list-style: none;
+    position: relative;
+    width: 100px;
     height: 40px;
     line-height: 40px;
     text-align: center;
 }
 
 .first {
-	background-color: #ffebc8;
+    background-color: #ffebc8;
 }
 
 .first:hover {
-	background-color: red;
+    background-color: red;
 }
 
 .second {
-	width: 300px;
-	top: 0;
-	position: absolute;
-	margin-left: 100px;
-	display: none;
+    width: 300px;
+    top: 0;
+    position: absolute;
+    margin-left: 100px;
+    display: none;
 }
 .second li {
-	float: left;
+    float: left;
 }
 
 .second li:hover {
-	background-color: blue;
+    background-color: blue;
 }
 
 .third {
-	top: 40px;
-	position: absolute;
-	display: none;
+    top: 40px;
+    position: absolute;
+    display: none;
 }
 
 .second li .third li {
-	display: block;
+    display: block;
 }
 
 .third li:hover {
-	background-color: yellow;
+    background-color: yellow;
 }
 
 .first:hover .second {
-	display: block;
+    display: block;
 }
 
 .second li:hover .third {
-	display: block;
+    display: block;
 }
