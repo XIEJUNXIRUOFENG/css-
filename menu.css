@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+	width: 400px;
+}
+
+li {
+	list-style: none;
+	position: relative;
+	width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.first {
+	background-color: #ffebc8;
+}
+
+.first:hover {
+	background-color: red;
+}
+
+.second {
+	width: 300px;
+	top: 0;
+	position: absolute;
+	margin-left: 100px;
+	display: none;
+}
+.second li {
+	float: left;
+}
+
+.second li:hover {
+	background-color: blue;
+}
+
+.third {
+	top: 40px;
+	position: absolute;
+	display: none;
+}
+
+.second li .third li {
+	display: block;
+}
+
+.third li:hover {
+	background-color: yellow;
+}
+
+.first:hover .second {
+	display: block;
+}
+
+.second li:hover .third {
+	display: block;
+}
